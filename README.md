@@ -1,5 +1,6 @@
 # Amazon Sales Analytics
 ### A Data Engineering & Analytics Project using SQL, Python, and Power BI  
+Created by: Samuel N C
 
 ## Project Overview
 This project analyzes Amazon-style e-commerce sales data (India–focused) to uncover insights about revenue, orders, returns, customer behavior, and performance across product categories and states.
