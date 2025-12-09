@@ -21,7 +21,7 @@ venv/
 Thumbs.db
 
 # Data files you don't want to track
-data/raw/
+data/processed/
 
 # Logs
 *.log

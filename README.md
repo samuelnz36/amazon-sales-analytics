@@ -1,6 +1,5 @@
 # Amazon Sales Analytics
 ### A Data Engineering & Analytics Project using SQL, Python, and Power BI  
-Created by: **Samuel N C**
 
 ---
 
@@ -105,23 +104,28 @@ Sikkim, Rajasthan, Chhattisgarh, Meghalaya, Tamil Nadu.
 ## 📁 Project Structure
 
 ```
-Amazon-Sales-Analytics/
+AMAZON-SALES-ANALYTICS/
+│
+├── dashboard/
+│   └── Amazon_India_Sales_Dashboard.pbix
 │
 ├── data/
-│   └── sales.csv
+│   ├── processed/
+│   └── raw/
+│       └── amazon_sales_2025_INR.csv
 │
 ├── notebooks/
 │   ├── 01_data_cleaning.ipynb
 │   ├── 02_eda.ipynb
 │   └── 03_sql_queries.ipynb
 │
-├── database/
-│   └── sales.db
+├── src/
+│   ├── __init__.py
 │
-├── powerbi/
-│   └── Amazon_Sales_Analytics.pbix
-│
-└── README.md
+├── .gitignore
+├── README.md
+└── requirements.txt
+
 ```
 
 ---
