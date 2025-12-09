@@ -41,6 +41,8 @@ venv/
 *.db           
 *.sqlite
 *.sqlite3
+data/processed/
+
 
 # Ignore large raw datasets unless intentionally tracked
 data/raw/*.csv
