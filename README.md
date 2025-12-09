@@ -76,7 +76,7 @@ Sikkim, Rajasthan, Chhattisgarh, Meghalaya, Tamil Nadu.
 
 ---
 
-## 📊 4. Power BI Dashboard (`powerbi/Amazon_Sales_Analytics.pbix`)
+## 📊 4. Power BI Dashboard (`dashboard/Amazon_India_Sales_Dashboard.pbix`)
 
 ### **Page 1 — Sales Overview**
 - KPIs  
