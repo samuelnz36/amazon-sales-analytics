@@ -1,121 +1,110 @@
 # Amazon Sales Analytics
 ### A Data Engineering & Analytics Project using SQL, Python, and Power BI  
-Created by: Samuel N C
+Created by: **Samuel N C**
 
-## Project Overview
+---
+
+## 📌 Project Overview
 This project analyzes Amazon-style e-commerce sales data (India–focused) to uncover insights about revenue, orders, returns, customer behavior, and performance across product categories and states.
 
-The goal is simple:
-- Clean the dataset  
-- Explore meaningful patterns through Python  
-- Run structured analysis using SQL  
-- Build a professional Power BI dashboard
+The workflow includes:
+- Data cleaning using Python  
+- Exploratory Data Analysis (EDA)  
+- SQL-based analytical queries  
+- Interactive dashboards built in Power BI  
 
-This project demonstrates practical skills in data preprocessing, exploratory analysis, SQL querying, and dashboard creation.
+This project demonstrates practical, beginner-friendly skills in data engineering and analytics.
 
 ---
 
-## 1. Data Cleaning (Notebook: 01_data_cleaning.ipynb)
+## 🧹 1. Data Cleaning (`notebooks/01_data_cleaning.ipynb`)
 Key steps performed:
 - Removed missing or invalid values  
-- Standardized column names and data types  
-- Converted date columns to proper datetime formats  
-- Derived additional fields such as Month_Name, Year, Returned flag  
-- Validated numerical fields like revenue and quantities  
+- Standardized column names  
+- Converted date fields  
+- Created additional columns (`Month_Name`, `Year`, `Returned`)  
+- Validated revenue and numerical fields  
 
-After cleaning, a final structured `sales` table was ready for SQL and EDA.
+The cleaned dataset is used for SQL and visualization.
 
 ---
 
-## 2. Exploratory Data Analysis (Notebook: 02_eda.ipynb)
-Major KPIs calculated:
+## 🔍 2. Exploratory Data Analysis (`notebooks/02_eda.ipynb`)
+### Key KPIs from the dataset:
+- **Total Revenue:** ~₹1.11B  
+- **Total Orders:** 15,000  
+- **Units Sold:** 44,770  
+- **Average Order Value:** ₹74,544  
+- **Average Rating:** 3.04  
+- **Return Rate:** 32.5%  
+- **Unique Customers:** 7,259  
+- **States Covered:** 28  
 
-Total Revenue: ~₹1.11B  
-Total Orders: 15,000  
-Total Units Sold: 44,770  
-Average Order Value: ₹74,544  
-Average Rating: 3.04  
-Return Rate: 32.5%  
-Unique Customers: 7,259  
-States Covered: 28  
-
-### Key EDA Visuals
-- Daily revenue trend  
-- Monthly revenue breakdown  
-- Category-level revenue  
+### Visual analyses performed:
+- Revenue over time  
+- Category-level revenue breakdown  
+- Rating insights  
+- Return behavior  
+- State-level performance  
 - Payment method distribution  
-- Rating distribution  
-- Return behavior analysis  
-- State-level revenue and return rates  
 
 ---
 
-## 3. SQL Analysis (Notebook: 03_sql_queries.ipynb)
-A SQLite database (sales.db) was created to run SQL queries for deeper insights.
+## 🧮 3. SQL Analysis (`notebooks/03_sql_queries.ipynb`)
+A SQLite database (`database/sales.db`) was created for deeper analysis.
 
-### Important SQL results:
-
-Top Categories by Revenue:
+### Example SQL insights:
+#### Top Categories by Revenue
 - Beauty  
 - Electronics  
 - Books  
 - Clothing  
 - Home & Kitchen  
 
-Most Returned Categories:
+#### Highest Return Rates  
 - Books  
 - Electronics  
 - Clothing  
 
-Return Rate by Payment Method:
+#### Return Rate by Payment Method  
 - Credit Card: 33.34%  
 - Debit Card: 32.70%  
 - UPI: 32.11%  
 - Cash on Delivery: 31.98%  
 
-Daily Revenue:
-A full time-series query showing revenue per day.
-
-State-Level Revenue Ranking:
-Highest revenues from Sikkim, Rajasthan, Chhattisgarh, Meghalaya, Tamil Nadu, etc.
+#### High-Revenue States  
+Sikkim, Rajasthan, Chhattisgarh, Meghalaya, Tamil Nadu.
 
 ---
 
-## 4. Power BI Dashboard
+## 📊 4. Power BI Dashboard (`powerbi/Amazon_Sales_Analytics.pbix`)
 
-### Page 1 — Overall Sales Overview
-Includes:
-- Total Revenue  
-- Total Orders  
-- Total Units Sold  
-- AOV  
-- Average Rating  
-- Return Rate  
+### **Page 1 — Sales Overview**
+- KPIs  
 - Monthly Revenue Trend  
-- Revenue by Product Category  
-- Payment Method Distribution  
+- Revenue by Category  
+- Payment Method Split  
 - Delivery Status Breakdown  
 
-### Page 2 — Product Deep Dive
-Includes:
+### **Page 2 — Product Deep Dive**
 - Top 10 Products by Revenue  
 - Top 10 Most Returned Products  
 - Return Rate by Category  
 - Average Rating by Category  
 - Units Sold by Category  
 
-### Page 3 — State-Level Analysis
-Includes:
-- India map showing revenue by state  
+### **Page 3 — State-Level Insights**
+- India State Revenue Map  
 - Return Rate by State  
-- Average Rating by State  
+- Rating by State  
 - Rating Distribution  
 - Return Rate by Payment Method  
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
+```
 Amazon-Sales-Analytics/
 │
 ├── data/
@@ -133,29 +122,29 @@ Amazon-Sales-Analytics/
 │   └── Amazon_Sales_Analytics.pbix
 │
 └── README.md
+```
 
 ---
 
-## Final Insights
-
-- Beauty, Electronics, and Books drive the highest revenue.  
-- Return rates remain consistently high (~32%) across categories and states.  
-- Ratings do not strongly correlate with returns.  
-- Payment methods show nearly identical return behavior.  
-- High-revenue states include Sikkim, Rajasthan, and Chhattisgarh.  
-- Customer ratings are fairly normally distributed across 1–5.
+## 🧠 Final Insights
+- Beauty, Electronics, and Books dominate revenue.  
+- Returns remain consistently high (~32%).  
+- Ratings do not strongly affect return likelihood.  
+- Payment methods behave similarly in return rate.  
+- Certain states generate significantly higher revenue.  
+- Customer ratings are evenly distributed across 1–5.
 
 ---
 
-## Skills Demonstrated
+## 🛠 Skills Demonstrated
 - Python (Pandas, Matplotlib, Seaborn)  
-- SQL (SQLite, analytical queries)  
-- Data Cleaning & Transformation  
+- SQL (SQLite)  
+- Data Cleaning  
 - Exploratory Data Analysis  
 - Power BI Dashboarding  
-- Data Storytelling  
+- Business Insight Generation  
 
 ---
 
-## Author
-Samuel N C
+## 👤 Author
+**Samuel N C**
