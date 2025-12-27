@@ -4,7 +4,7 @@
 ---
 
 ## 📌 Project Overview
-This project analyzes Amazon-style e-commerce sales data (India–focused) to uncover insights about revenue, orders, returns, customer behavior, and performance across product categories and states.
+This project analyzes an Amazon-style e-commerce sales data-set (India–focused) to uncover insights about revenue, orders, returns, customer behavior, and performance across product categories and states.
 
 The workflow includes:
 - Data cleaning using Python  
